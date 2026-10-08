@@ -1,0 +1,21 @@
+{
+  "name": "demoblaze",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:auth": "cypress run --spec cypress/e2e/authentication.cy.ts",
+    "cy:purchase": "cypress run --spec cypress/e2e/purchase.cy.ts",
+    "cy:chrome": "cypress run --browser chrome",
+    "cy:chrome:auth": "cypress run --browser chrome --spec cypress/e2e/authentication.cy.ts",
+    "cy:chrome:purchase": "cypress run --browser chrome --spec cypress/e2e/purchase.cy.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^16.1.1",
+    "typescript": "^7.0.2"
+  }
+}

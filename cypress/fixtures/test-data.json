@@ -1,0 +1,17 @@
+{
+  "users": {
+    "defaultPassword": "Test123!",
+    "invalidPassword": "WrongPassword123!"
+  },
+  "checkout": {
+    "name": "Test User",
+    "country": "Germany",
+    "city": "Berlin",
+    "card": "4111111111111111",
+    "month": "12",
+    "year": "2028"
+  },
+  "products": {
+    "laptop": "MacBook Pro"
+  }
+}
